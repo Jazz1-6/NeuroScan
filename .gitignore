@@ -1,0 +1,15 @@
+# Dataset (too large, and not this project's to redistribute)
+archive.zip
+dataset/
+
+# Locally generated output
+reports/
+
+# Python environment / build artifacts
+.venv/
+__pycache__/
+*.pyc
+
+# OS clutter
+.DS_Store
+Thumbs.db
