@@ -1,0 +1,41 @@
+{
+  "architecture": "EfficientNetB0",
+  "version": "v1.1",
+  "input_size": "224 \u00d7 224",
+  "epochs": "20 + up to 25 fine-tune",
+  "classes": 4,
+  "training_samples": 5600,
+  "validation_samples": 1400,
+  "testing_samples": 1600,
+  "accuracy": 0.93125,
+  "precision_macro": 0.9332661861521544,
+  "recall_macro": 0.93125,
+  "f1_macro": 0.9298050071429252,
+  "confusion_matrix": [
+    [
+      326,
+      42,
+      26,
+      6
+    ],
+    [
+      8,
+      364,
+      4,
+      24
+    ],
+    [
+      0,
+      0,
+      400,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      400
+    ]
+  ],
+  "roc_auc": "Not recorded by this training workflow"
+}
